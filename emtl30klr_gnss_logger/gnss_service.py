@@ -4,15 +4,9 @@ import collections
 from threading import Thread, Event, Lock
 import dataclasses
 from datetime import datetime
-from enum import Enum
 
 from pyubx2 import (
     NMEA_PROTOCOL,
-    RTCM3_PROTOCOL,
-    UBX_PROTOCOL,
-    UBXMessage,
-    UBXMessageError,
-    UBXParseError,
     UBXReader,
 )
 

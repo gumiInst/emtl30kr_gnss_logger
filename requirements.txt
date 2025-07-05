@@ -1,3 +1,4 @@
 pyserial
 pyubx2
 termcolor
+pyproj
