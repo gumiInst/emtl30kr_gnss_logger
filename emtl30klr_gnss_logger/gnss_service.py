@@ -149,6 +149,7 @@ class GNSSService:
                 raw, parsed = self._ubr.read()
                 if parsed and hasattr(parsed, "identity"):
                     if parsed.identity == "GNGGA":
+                        logger.info(f"Received GNGGA message: {parsed}")
                         if hasattr(parsed, "time") \
                             and hasattr(parsed, "lat") \
                             and hasattr(parsed, "lon") \
