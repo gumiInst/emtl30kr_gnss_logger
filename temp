@@ -1,0 +1,4 @@
+
+
+
+python3 -m emtl30klr_gnss_logger.main -l info --gt-lat 0 --gt-lon 0 --log-to-file auto
