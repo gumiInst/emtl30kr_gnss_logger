@@ -10,3 +10,4 @@ pandas
 matplotlib
 scipy
 dtw-python
+ipywidgets
